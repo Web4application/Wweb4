@@ -11,6 +11,7 @@ REPOS=(
     "https://github.com/Kubucoin-eth/OMIRAN.git"
     "https://github.com/QUBUHUB/web4UI.git"
     "https://github.com/QUBUHUB/web4.app.git"
+    "https://github.com/Web4application/kubu-hai.git"
 )
 
 # Target directory to store cloned repositories
