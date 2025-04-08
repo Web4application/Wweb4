@@ -12,6 +12,7 @@ REPOS=(
     "https://github.com/QUBUHUB/web4UI.git"
     "https://github.com/QUBUHUB/web4.app.git"
     "https://github.com/Web4application/kubu-hai.git"
+    "https://github.com/Web4application/fadaka.git"
 )
 
 # Target directory to store cloned repositories
