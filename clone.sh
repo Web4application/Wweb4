@@ -4,7 +4,13 @@
 # List of repositories to clone
 REPOS=(
     "https://github.com/Kubucoinincs/web4.git"
-    "https://github.com/another/repository.git"
+    "https://github.com/Kubucoin-eth/web4.git"
+    "https://github.com/QUBUHUB-repos/master.git"
+    "https://github.com/QUBUHUB-repos/ChatGPT-web4.git"
+    "https://github.com/QUBUHUB-repos/RODA-AI-Web.git"
+    "https://github.com/Kubucoin-eth/OMIRAN.git"
+    "https://github.com/QUBUHUB/web4UI.git"
+    "https://github.com/QUBUHUB/web4.app.git"
 )
 
 # Target directory to store cloned repositories
