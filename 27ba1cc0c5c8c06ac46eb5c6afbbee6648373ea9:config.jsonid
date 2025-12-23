@@ -1,0 +1,1128 @@
+)]}'
+{
+  "commit": "27ba1cc0c5c8c06ac46eb5c6afbbee6648373ea9",
+  "tree": "1940051991f31e04c3c38f8466e5b2a594c40a86",
+  "parents": [
+    "2c87f2f56284e48bc6316d641bdfaa037d03ac91"
+  ],
+  "author": {
+    "name": "chromium-autoroll",
+    "email": "chromium-autoroll@skia-public.iam.gserviceaccount.com",
+    "time": "Sun Dec 21 00:00:25 2025"
+  },
+  "committer": {
+    "name": "Chromium LUCI CQ",
+    "email": "chromium-scoped@luci-project-accounts.iam.gserviceaccount.com",
+    "time": "Sun Dec 21 00:00:25 2025"
+  },
+  "message": "Roll androidx from 3bKAVSreX7HDusK7L... to C3j-C5V9tHCRBAR-u...\n\nIf this roll has caused a breakage, revert this CL and stop the roller\nusing the controls here:\nhttps://autoroll.skia.org/r/androidx-chromium\nPlease CC clank-build@google.com,clank-library-failures@google.com,wnwen@google.com on the revert to ensure that a human\nis aware of the problem.\n\nTo file a bug in Chromium: https://bugs.chromium.org/p/chromium/issues/entry\n\nTo report a problem with the AutoRoller itself, please file a bug:\nhttps://issues.skia.org/issues/new?component\u003d1389291\u0026template\u003d1850622\n\nDocumentation for the AutoRoller is here:\nhttps://skia.googlesource.com/buildbot/+doc/main/autoroll/README.md\n\nCq-Include-Trybots: luci.chrome.try:android-internal-binary-size;luci.chrome.try:android-internal-rel;luci.chrome.try:test-emulator\nTbr: clank-library-failures@google.com\nChange-Id: I103291f5c2a6df36597358a62d76ab21f80b8590\nReviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/7285548\nCommit-Queue: chromium-autoroll \u003cchromium-autoroll@skia-public.iam.gserviceaccount.com\u003e\nBot-Commit: chromium-autoroll \u003cchromium-autoroll@skia-public.iam.gserviceaccount.com\u003e\nCr-Commit-Position: refs/heads/main@{#1561566}\n",
+  "tree_diff": [
+    {
+      "type": "modify",
+      "old_id": "5af6fa87bf58059d5ac350ff28b00ce11ed54fa9",
+      "old_mode": 33188,
+      "old_path": "DEPS",
+      "new_id": "46970b3e6bac1a614557ae3cbf4b331a13cb8c77",
+      "new_mode": 33188,
+      "new_path": "DEPS"
+    },
+    {
+      "type": "modify",
+      "old_id": "eb42a65dc29b8c872add47cc4123965e8aa5c15d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/build.gradle",
+      "new_id": "e802bd153f4dabd31b10012c46ff7fc44c32341e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/build.gradle"
+    },
+    {
+      "type": "modify",
+      "old_id": "161d7dae8cd1bdb2a773dda3f6f3a003d08b9f13",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_activity_activity/README.chromium",
+      "new_id": "ec9098e43211ce2b47d7469b4c22ddd5237080b3",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_activity_activity/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "d274f264a6beeee5ee762f9773a48056d6374973",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_activity_activity_compose/README.chromium",
+      "new_id": "a1e6273196544e3d5844e601c3926090821618fe",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_activity_activity_compose/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "ace24b72e5ece51c08a5e0d1ce322825d168ae75",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_activity_activity_ktx/README.chromium",
+      "new_id": "72cf279bd713efb22a006d9633a4a48fc792854c",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_activity_activity_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "7d0996fc63f9fd38631d23ec543f3083a270fc63",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_annotation_annotation_experimental/README.chromium",
+      "new_id": "5284e3036a9e245f89afdd49d0cb514d69f347c3",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_annotation_annotation_experimental/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "2636e5a57dec4d98aa084062240ebfa73269ea83",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_annotation_annotation_jvm/README.chromium",
+      "new_id": "52d5eaafb4a826c09c522d4b6ab4f587d895c1b9",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_annotation_annotation_jvm/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "3e723a5dcdf0556ec47cdb3fc8ab5fe34edd5782",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_appcompat_appcompat/README.chromium",
+      "new_id": "e8ddfc1f14d0fa63ca3a451e4946f448596e0f27",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_appcompat_appcompat/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "00ac90e4a2699ba5a46bb76da55b81276b27ddb2",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_appcompat_appcompat_resources/README.chromium",
+      "new_id": "2c11eff3b5d7c07f897eb5b66e5c4262cfacefbf",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_appcompat_appcompat_resources/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "d12b3f286f79d976f6c3bc9eae398da44dc43396",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_appsearch_appsearch/README.chromium",
+      "new_id": "03df3f3943b332a612cdebe8f7094a196ab656a7",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_appsearch_appsearch/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "f2425a9b31525d7af5bd816bf3e134398fa95a7c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_appsearch_appsearch_builtin_types/README.chromium",
+      "new_id": "5fe2190c74f3a34b14ac8478ba6281999f8307d8",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_appsearch_appsearch_builtin_types/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "31b5b8a835c1e006fe8063644b6e149089f71f3b",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_appsearch_appsearch_platform_storage/README.chromium",
+      "new_id": "a2960cdd554b141b0f10ebc8e592b7623320dccb",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_appsearch_appsearch_platform_storage/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "2a701b58dd6b13f5aedd30d4f6f032b92968e77a",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_arch_core_core_common/README.chromium",
+      "new_id": "9622cab8635d85b8c7604b6e82b6f44f76889746",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_arch_core_core_common/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "22ebe0ffd8728ee289108ec16ac302de822e85fa",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_arch_core_core_runtime/README.chromium",
+      "new_id": "1526b1b51681c45eb00a579110eaf4c010b7c1ee",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_arch_core_core_runtime/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "13bede6bc4c526ab5a2e0f833137c12fb81bbf7d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_autofill_autofill/README.chromium",
+      "new_id": "9f6ab5b9c8a7c2eddabb11e9f9d22799bc0ed9eb",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_autofill_autofill/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "86fe6acccb52440889ad59b429084734b5cedd16",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_common/README.chromium",
+      "new_id": "d8681b954613ba60b25c743c011c1797b613b08e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_common/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "22991abbe554cceb6d0e6fa849eb2a68194fa65c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_junit4/README.chromium",
+      "new_id": "9ce0cc137f5875889db533953b3d82e30c809bb5",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_junit4/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "a03aa07cb797f125c57a2a2d03740a0aaab010c4",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_macro/README.chromium",
+      "new_id": "c26c8ea359c60105704dcaa420c6ea4db6c5daf4",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_macro/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "57550c98207d40433a594b7cccfca833d43b135d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_macro_junit4/README.chromium",
+      "new_id": "c32de4b81f3ccda14b13a480ada2eae00a488197",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_macro_junit4/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "9d929aaadf28a6677f98e425b679a7588e7ea49f",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_traceprocessor_android/README.chromium",
+      "new_id": "aa95e61177d20802df1fdf1af6e6b982b6723515",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_benchmark_benchmark_traceprocessor_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "c11768e6a6ea481519469b0c1eb7ec738268e914",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_biometric_biometric/README.chromium",
+      "new_id": "91005d7ea3c572836fbf3960ebbead31ffae6ed1",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_biometric_biometric/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "bf1042d251011f337ad66e861aacf7e9c052cd24",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_browser_browser/README.chromium",
+      "new_id": "e92046968fd40bfe8a4e651a41a0e8f7d37e04e2",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_browser_browser/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "83ea5368844beb5ff13b1bc323bccfb557ebc39c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_cardview_cardview/README.chromium",
+      "new_id": "02ac67aeb157906dfc39379f4b96dd59fd97fa1b",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_cardview_cardview/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "1fea5ad97b113988ba7f4497cfa37e0db6636722",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_collection_collection_jvm/README.chromium",
+      "new_id": "caba31a82496b035620a54ce386cd62b18d9c4f1",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_collection_collection_jvm/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "8484c5faf6d3f895b56048931f1284ba111d3ebd",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_collection_collection_ktx/README.chromium",
+      "new_id": "fd75d925eefeb928f29f62298324691a29957cdc",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_collection_collection_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "ec15fc4e4285458c19404247bd5e61195cd6f8cd",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_animation_animation_android/README.chromium",
+      "new_id": "21c02b87589ea7fc248060c63305a76a65455f01",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_animation_animation_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "3acdcc6c97b2cf8cdf9c02349c03d58cfa2939e8",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_animation_animation_core_android/README.chromium",
+      "new_id": "90d9fc001606ee4fae4c3f22c48829443fbbd0df",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_animation_animation_core_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "5c57f847f3d32e19f332bc2bdc74a86efbddc70c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_foundation_foundation_android/README.chromium",
+      "new_id": "3f468adb4f4ac2c10044a056634bf598aeacc95e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_foundation_foundation_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "d9a8c2cdc0cbf2c2fd5e2b10d052628fdb72a45f",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_foundation_foundation_layout_android/README.chromium",
+      "new_id": "30e899379eb5bda1ad04100cca64a671e54ed0c3",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_foundation_foundation_layout_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "c28b4f100a709e00229752a99a75013fd387e801",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_material3_material3_android/README.chromium",
+      "new_id": "f30a6e62958755946bb7c73b6b6cdc6452de4d5b",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_material3_material3_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "525c2d7ee2b5ac2cd8c79b68f8cb9e7ae77bc76c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_material_material_ripple_android/README.chromium",
+      "new_id": "9b42fbccd495925263ff77f88a357f0a6c4e8229",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_material_material_ripple_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "060b736d274c8f2391745b37f1e485b0e9cde5e4",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_android/README.chromium",
+      "new_id": "da84d3c3018b26093810c9ddad19d113741ee891",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "61c679384e3e17b093f2e9d31ad4fcd61e3df6c4",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_annotation_android/README.chromium",
+      "new_id": "4ba6aef207697a94a2dfa599ee4083c6b4dfcc3d",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_annotation_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "dda5593ba17cf006e47413af4a9d4bd66d854ffd",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_retain_android/README.chromium",
+      "new_id": "f87497a16ce87adbc33d5809ef17fb71329182a4",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_retain_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "605a27faa78773d62f9112c411e09384d17bccef",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_saveable_android/README.chromium",
+      "new_id": "4f963fc9abdfd3c6c39082f8b14f6a23e034720d",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_runtime_runtime_saveable_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "186c1c66fc19bc38d747faba6e54992676454532",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_android/README.chromium",
+      "new_id": "9d4381613000c90f8837707ff9f99ebcaefc7719",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "b5237aeb2eee305262e8105e21a31a214db6ecc3",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_geometry_android/README.chromium",
+      "new_id": "3168709ece742616fd6deeec86a6d19a5a879c92",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_geometry_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "4c766454db3a7fbc4383016467de960f69ac4e8c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_graphics_android/README.chromium",
+      "new_id": "cca559df16c3035f9f3d097e10ea9b7500146abc",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_graphics_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "188478eb34a6c282b83e0cce039e45c6f8f10ecd",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_test_android/README.chromium",
+      "new_id": "86a332dd1ef8b14ae344bd5d41dadfc3610d135d",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_test_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "8c09f137b9c3dfbed729281ddf7e25c52f1848a3",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_test_junit4_android/README.chromium",
+      "new_id": "33d3bd4de6fabb3ea43955baf634f57486ca8dce",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_test_junit4_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "417d551029bc18e36fcb491bdb2ce584b6334395",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_test_manifest/README.chromium",
+      "new_id": "2904a0a25ef38a7e185a0d2aa3c905ce1ebcbbfb",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_test_manifest/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "edcdd472210d34a36d58cc019275359feca3461d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_text_android/README.chromium",
+      "new_id": "920c09cc8ac58154f374178ada7144213e9a8d89",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_text_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "7927b8f29c5e08afd49896366c8de3a6a5297dc0",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_text_google_fonts/README.chromium",
+      "new_id": "d50fc43a6ef915301275125bb41f9d37fe8c4c0c",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_text_google_fonts/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "5f8e585d1ab12381c1d0395020db3c88afad5bde",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_unit_android/README.chromium",
+      "new_id": "154b88cd2bc41fb5c3adadf5a878b56b0d65147e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_unit_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "dd75426c9a8d38fcbd5397cf14eb3e081288217a",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_util_android/README.chromium",
+      "new_id": "4e7fbeb976b341c7852d46b8246fa1ad1c4e35c8",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_compose_ui_ui_util_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "f0364e651f8f5b7d317521e7c7c4c065bdee057a",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_constraintlayout_constraintlayout/README.chromium",
+      "new_id": "db7bd8df7db073375849c0984b125297a9768abf",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_constraintlayout_constraintlayout/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "ab3fe71b920d054db007b98586a9a38c2cfdfc97",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_constraintlayout_constraintlayout_core/README.chromium",
+      "new_id": "0f981ae21f5c740d5fad642dc3ffd9eddc1212ef",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_constraintlayout_constraintlayout_core/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "5d796ecac69e756436c57f1410ec813eeb237c28",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_core_core/README.chromium",
+      "new_id": "067a9c67d4a9b9cb8c6456a8b1ca26b601dac727",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_core_core/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "0bb91aa63de8ccbe022af8d13f1ce3dd86457337",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_core_core_ktx/README.chromium",
+      "new_id": "ca84c055d504402d81f1b269380fae90d8089ba3",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_core_core_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "e5125b5e5f1989650ec8689b093437e16844e003",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_core_core_viewtree/README.chromium",
+      "new_id": "6a3540c93c793542909ce14da91e8ae23bd7c63d",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_core_core_viewtree/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "09b417ea3002b7f1438b7adb3839e3f55e520a2f",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_credentials_credentials/README.chromium",
+      "new_id": "c1962ccc5f8c6d0ae7f7752ab13a68677775b3da",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_credentials_credentials/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "321264f647f22aefba8238716407b5d842c0b2d7",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_credentials_credentials_play_services_auth/README.chromium",
+      "new_id": "4bd86129ff1b6c8a555e2ee3189f7ac48c6027af",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_credentials_credentials_play_services_auth/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "b749672e551aae9d949c55349bda08d581f0a154",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_credentials_registry_registry_provider/README.chromium",
+      "new_id": "dcb8fcd682f6e490cb9645bda612871326fdd52a",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_credentials_registry_registry_provider/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "144a14d6b6af9aa5bcf9554812287191542aabd3",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_credentials_registry_registry_provider_play_services/README.chromium",
+      "new_id": "15c0f8a8d2c0ca8daf97c43e85235ad401c6957f",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_credentials_registry_registry_provider_play_services/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "04210daad7da2b850c94a190620bb3f52841befa",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_cursoradapter_cursoradapter/README.chromium",
+      "new_id": "4f10a715294632ff902080490131e8c0d07f645e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_cursoradapter_cursoradapter/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "7ca8dc7009f0e99d7f3d77e1a3cda1796fffa4d6",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_android/README.chromium",
+      "new_id": "2a6054528b6d0de2631c983d50d5d0ff3259a93e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "bc06c5037c8c3faff2788405d932c1ff9555599a",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_core_android/README.chromium",
+      "new_id": "bb2109060b68db58b04d93c651e0eb992414225c",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_core_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "08269ba9d7d29cc9477f219591cb12a4c2867f6f",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_core_okio_jvm/README.chromium",
+      "new_id": "dd8fc0bbb619ecb7b1c4af1027945d1fbbf1fd46",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_core_okio_jvm/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "92b85ee04e8bacdcc81f5d30831d3aa2c7a8cdbd",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_android/README.chromium",
+      "new_id": "5e417b296cbd8e62569c87f172718d31a875301b",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "6e3395bfa74c2db8affb24fc10d675a9dff93869",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_core_android/README.chromium",
+      "new_id": "01901bcfb4cfdeb9e234ed90115218bbf1dabb5a",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_core_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "06fffaf52a3bf8859276b47310d30f2ccf4b6a13",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_external_protobuf/README.chromium",
+      "new_id": "be2f182c75ca4c34672d2dd1fa043b484fac49de",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_external_protobuf/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "5ddf88358410df3e7f97b19c9cc0ae9f7e8cceec",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_proto/README.chromium",
+      "new_id": "3a7d64c9efeca607ff1834b4cd1c1a115832b7cb",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_datastore_datastore_preferences_proto/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "1499783d1dc29c27ea3ec4279f2a5cfe8b888bec",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_drawerlayout_drawerlayout/README.chromium",
+      "new_id": "0af67021acb07bbc6a5d35a02a7c6c325999e952",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_drawerlayout_drawerlayout/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "b0290c723d8f1c9ff66a785278e0254bffd44628",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_fragment_fragment/README.chromium",
+      "new_id": "4fedf3825b84a2a79e4a28f3ad1b3ac1cb8c18c7",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_fragment_fragment/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "1311a1c8771bbc8f6ad48cee8f5b90cba441e4b9",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_compose/README.chromium",
+      "new_id": "a9156953cecbbedbd748237c97e1116e5bc19443",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_compose/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "97d28214cc0133c66e18ff6c86eb5f78880fda24",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_ktx/README.chromium",
+      "new_id": "a45b11c28f6afb94650c1dd1ae04f3d3ebbfa5bf",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "a62a93a55889f184aaefa6fa6f25abf1b5e05840",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_testing/README.chromium",
+      "new_id": "e145f446e03eca90454320a43487b0760173094b",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_testing/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "9bd29b3115ffa56c313590778955610b725b7439",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_testing_manifest/README.chromium",
+      "new_id": "47c4c058295de9085689eb93961fdb086182ea90",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_fragment_fragment_testing_manifest/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "25f8fbb52df9e850c026b0ae99b82ffdae7c5c9e",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_graphics_graphics_path/README.chromium",
+      "new_id": "6b49559e5a3b5e2d339a6525026e356ef9072a79",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_graphics_graphics_path/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "680f209c8562d1ed475f57d8e8d879f3eb788e58",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_interpolator_interpolator/README.chromium",
+      "new_id": "2d99f53d77fc1a8a04c1a7ab57a8c412e2974a8d",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_interpolator_interpolator/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "c9c4ac47ca743271a5c81fbb5ec70f6d730eb112",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_common_java8/README.chromium",
+      "new_id": "54619e39ed247c856aaf9668029951da14217eed",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_common_java8/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "e9272484477905d076e20366bb1c74a978e41e81",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_common_jvm/README.chromium",
+      "new_id": "55688bc487939e9d99b23cc0b1424fdc0fd4c9e4",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_common_jvm/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "060febfdf6f868f99fe18ccd8cf9629566542097",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata/README.chromium",
+      "new_id": "ea9efa5347269a805248308452fd5dd2f73e6fa8",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "9fe7e096c2ddd94adff63fed4a2c9a9d561ccc4c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata_core/README.chromium",
+      "new_id": "48d3657f66f4b0cc89d253f23a86281ff8dd96d3",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata_core/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "fa2cc04e4b82a999a95b016e17556cd9168998f8",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata_core_ktx/README.chromium",
+      "new_id": "974a946e1fd439527b76525935a27a9040c76109",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata_core_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "b2668b7c72b6ab46a7b49553290025271b11cd88",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata_ktx/README.chromium",
+      "new_id": "053fd83874e16be27a1abe8c56894e3474ea4154",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_livedata_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "893c9d87be436b9bb0abf6ef77060dc13d5208ef",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_process/README.chromium",
+      "new_id": "aa9395dacc0282dfb7a068751bb849780ad38984",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_process/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "fc485bccffa09f5921a9c7a8197e765c3ade1262",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_runtime_android/README.chromium",
+      "new_id": "a286eb8010302e9717a0683c80997b5dd460e4cd",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_runtime_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "c869239e37d1caf841407584984816c8d7140b75",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_runtime_compose_android/README.chromium",
+      "new_id": "fd31c4d28d9a0114e8af332fd1c80678d53a2906",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_runtime_compose_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "de2bb19c4663c4f291a1acfb357e9469be506c1d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_runtime_ktx_android/README.chromium",
+      "new_id": "5b10940b77fabca76a74e8c3e3e09287be2780b3",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_runtime_ktx_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "007ab5485a57919100e4b52b2de9003aacd15c87",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_service/README.chromium",
+      "new_id": "4219d3ae1f680c38139dca87a9d0109ed6fc9050",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_service/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "8c81257eeceedc2081641e4226a4035bd755d3f3",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_android/README.chromium",
+      "new_id": "7aa1b3d6b173d299947036053df7b6f55024d9ee",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "5685ce9109097b75bb633294b5e8aa48090b402b",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_compose_android/README.chromium",
+      "new_id": "6c5375572ca3d4d2d5c42fb3b0abc20ca34b4a1e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_compose_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "ea3ee53ffdd1f7237b536445c113fa759bc144d1",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_ktx/README.chromium",
+      "new_id": "6d5635a02e14fee9f59cc5565debe8f806ce12f6",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "ecaa79bc58217c319ea5d045ae284301d8ff9d19",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_savedstate_android/README.chromium",
+      "new_id": "6704a7aeccd5d5db852b2fcd8dd683a27f8e01fe",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_lifecycle_lifecycle_viewmodel_savedstate_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "330f59534c1bec83a86387d8dbe2ec032a489362",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_loader_loader/README.chromium",
+      "new_id": "bb62b46cf2dae5374ba739191a5160b9618aded1",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_loader_loader/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "d003c6a9d9639ea84f07acb196e70a9db23d38b1",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_media_media/README.chromium",
+      "new_id": "944abe895b5393fbca71aa8ec79d58bfc042875e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_media_media/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "36bcbd9aa2a9c72419b5ecb5a19e53c0173b0114",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_mediarouter_mediarouter/README.chromium",
+      "new_id": "776055028b743d815115e1b789e2f5ac0f121ac3",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_mediarouter_mediarouter/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "c2a41e87b0f532d5c283ae9fcf3b970f910c52e8",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_navigation_navigation_common_android/README.chromium",
+      "new_id": "eaea0ba209e30f9c496aaf76eaa64bf2cde8fe12",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_navigation_navigation_common_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "8f9a3718600c1bd64181250c2ff30d9fbb6f7c9c",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_navigation_navigation_compose_android/README.chromium",
+      "new_id": "54ea410d7087b389f02f415893ef3d0c04ec05b4",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_navigation_navigation_compose_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "186e3ee8458f848b3ea88a84d1797e1bb25c00ca",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_navigation_navigation_runtime_android/README.chromium",
+      "new_id": "cf2068e65b38b0057457a35192785fbf17ffba8e",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_navigation_navigation_runtime_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "cc81f8395b4c4a34a387dd6410d6fc95f8f7cd33",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_navigationevent_navigationevent_android/README.chromium",
+      "new_id": "b08712d81ca1b1c8defb3629e27a932c5692dd00",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_navigationevent_navigationevent_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "a8c99d23e6f1492c558ba975351a947b396c3f0a",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_navigationevent_navigationevent_compose_android/README.chromium",
+      "new_id": "be8350678e809fabf0846e762a87b0e2b7a37616",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_navigationevent_navigationevent_compose_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "3ca42636deef09ac1a6cb8c75efa172b9cc8f19f",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_paging_paging_common_android/README.chromium",
+      "new_id": "9833b1d7184bc503fdac196a149a18d409d0ae3f",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_paging_paging_common_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "64398f6e126d7b90d51f98481221bab3afcf2d25",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_paging_paging_common_ktx/README.chromium",
+      "new_id": "a9ef3350efea72563a2567d178cc3f3888d7366d",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_paging_paging_common_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "1539ac2c3d704a79d8d15873a5912a1fb86b861f",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_paging_paging_compose_android/README.chromium",
+      "new_id": "f27c5080e7e8bb607466816da3938a935f5afbb1",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_paging_paging_compose_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "4016f34e5bf137f249bd93dfa8058f86e0f06db0",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_paging_paging_runtime/README.chromium",
+      "new_id": "0abeb43432f971e7c15cf1d1716a29d68a93011a",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_paging_paging_runtime/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "7e006845c80c97fce113b14a1aa4040d62d4db7f",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_palette_palette/README.chromium",
+      "new_id": "89f58925e5d8649cc2fd15ae4e8a3ac5b22b010b",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_palette_palette/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "725fd904e4d67c9da7ecd994b82fcd2f40cf9864",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_pdf_pdf_document_service/README.chromium",
+      "new_id": "7d5a1e101f1ee86139f349a5616e08e22aabf4fe",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_pdf_pdf_document_service/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "cb3ffa7de7c26bfff4c170d9e74e8831f3c857fe",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_pdf_pdf_viewer/README.chromium",
+      "new_id": "40e6adf52ccd8803f47dfced0ef98d023ff4d447",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_pdf_pdf_viewer/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "16fe0b0330c7aa2b08791d566eb692f22fce74f9",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_pdf_pdf_viewer_fragment/README.chromium",
+      "new_id": "4b169a67cf0de6e59e08b5a4e20994aa73ce7235",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_pdf_pdf_viewer_fragment/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "587526374e79b84fabff13cffcc94a30c8a11638",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_preference_preference/README.chromium",
+      "new_id": "436849039ad553b331142c291e759c9eb8079bb6",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_preference_preference/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "9759c59f7258c85fffb7f9453f541fde82ac7c01",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_profileinstaller_profileinstaller/README.chromium",
+      "new_id": "a9d86ac668da39afa554001ad9ede1dcff5499bc",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_profileinstaller_profileinstaller/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "eb1f76d532d1e7765a27a9be3a6f975f0da6d4d1",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_recyclerview_recyclerview/README.chromium",
+      "new_id": "999528ed3317b890c2210b0a3dae7930da8b62ef",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_recyclerview_recyclerview/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "35bf835fdcbce82c8e9a2124385f00451f7e8132",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_resourceinspection_resourceinspection_annotation/README.chromium",
+      "new_id": "0e15e3cdc12fa1afcfe22861435fcf1364d75958",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_resourceinspection_resourceinspection_annotation/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "54da84360c520b14ef1d9ba61b649b1f83146f00",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_savedstate_savedstate_android/README.chromium",
+      "new_id": "acba41c223ad9f7b1dad9cd49d01aa0b80c4e1d6",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_savedstate_savedstate_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "68fa18043a8416ec0c4765ba75ad490973934610",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_savedstate_savedstate_compose_android/README.chromium",
+      "new_id": "9e29abc9acbfcfa915e4a4dade38af6ed7f085b6",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_savedstate_savedstate_compose_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "7dd4e60f81dc0612ab728c873f636103ea4fc8ee",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_savedstate_savedstate_ktx/README.chromium",
+      "new_id": "6252eba62369475c5e58bb711a156cbdaae758fe",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_savedstate_savedstate_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "b7439dc3a78990121d07ac40719f8de261dd8b4d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_slidingpanelayout_slidingpanelayout/README.chromium",
+      "new_id": "af3db95b9df1e3f990761987579999215f5087c6",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_slidingpanelayout_slidingpanelayout/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "2c05c4484801b90fd875658cc020fc77bf633688",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_sqlite_sqlite_android/README.chromium",
+      "new_id": "bab8d741faa0c6af472d866ed5a05424db64837a",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_sqlite_sqlite_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "5b13ebdbf7a51d392f26e1254524b379fd7e3143",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_sqlite_sqlite_framework_android/README.chromium",
+      "new_id": "c68aaae7b4990cf516b96a10f7987b17f5a0f491",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_sqlite_sqlite_framework_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "19340efc34d00c920d61f098a02c1310b28c041a",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_test_uiautomator_uiautomator/README.chromium",
+      "new_id": "92660afc400e081350a1a0b5f3f1ed2354f13d8b",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_test_uiautomator_uiautomator/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "40c73508aeb5dba092308696e648c1ae69d58f1d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_test_uiautomator_uiautomator_shell_android/README.chromium",
+      "new_id": "9330646e9acfc1c689ab8c0fe22ae065460fb222",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_test_uiautomator_uiautomator_shell_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "ff66187082a67e7bfc8b0faf99cb2af6d9598cb7",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_tracing_tracing_android/README.chromium",
+      "new_id": "122bdcd4d10fca3a27710e1a4030eb424b5fdbc7",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_tracing_tracing_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "92b2d131d05060c77de96f3e2126acd85a53f13b",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_tracing_tracing_ktx/README.chromium",
+      "new_id": "3ee815d60e23496b7d41ecb8390211e657aa9266",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_tracing_tracing_ktx/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "bf54d667cf74b3757c66e0cff5cc37783bb60fb0",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_transition_transition/README.chromium",
+      "new_id": "e33ea9d0d2dba110c1cd33068a2b5e08bb2729ca",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_transition_transition/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "9baa56b8ff4c064ed4c6af2bb667246848d19a03",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_viewpager2_viewpager2/README.chromium",
+      "new_id": "f58a568060ccae6f41c10290b056040f396b4519",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_viewpager2_viewpager2/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "e2456db307f7f71d73f2b959c872acc2ec642419",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_webkit_webkit/README.chromium",
+      "new_id": "bd2cdf59c52fdd5d7b21bc8a25a067d45c0c32c0",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_webkit_webkit/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "3554df5fc696113a3183f0836b3d776bf9509ef7",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_window_sidecar_sidecar/README.chromium",
+      "new_id": "a0c610c74bb1db10ba026b12ab0d5808a85de74d",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_window_sidecar_sidecar/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "fef77e2aea9f7d44ef6183715fea65ff56fb2a18",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_window_window/README.chromium",
+      "new_id": "05be7794f3e66e27f2df7c1b768b10270b892d65",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_window_window/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "6af76ebabfe6d3b8440edfe60ff521e0d7cf194d",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_window_window_core_android/README.chromium",
+      "new_id": "06b3a4f584b8f485503eacd8f4aaee0dfc1faf82",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_window_window_core_android/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "8caaef4b39a353e18b3f110293d9cd6a3195fce8",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_work_work_multiprocess/README.chromium",
+      "new_id": "924e96502810b1739639d346b015a742ba9ab95b",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_work_work_multiprocess/README.chromium"
+    },
+    {
+      "type": "modify",
+      "old_id": "00673f7f4c6a3775728771c2b73f884cd08d6e25",
+      "old_mode": 33188,
+      "old_path": "third_party/androidx/committed/libs/androidx_work_work_runtime/README.chromium",
+      "new_id": "3047ebcfa3a24da75c7eb221267171b0c43d326a",
+      "new_mode": 33188,
+      "new_path": "third_party/androidx/committed/libs/androidx_work_work_runtime/README.chromium"
+    }
+  ]
+}
